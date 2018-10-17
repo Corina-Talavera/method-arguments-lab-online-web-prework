@@ -2,9 +2,9 @@ def introduction(first_name, last_name)
   if last_name != "Brown" 
     puts " I am not part of the Brown family"
   else
-    
+    puts "Hi, my full name is #{first_name} #{last_name}."
   end
-  puts "Hi, my full name is #{first_name} #{last_name}."
+  
 end
 
 introduction("Bob", "Brown")
